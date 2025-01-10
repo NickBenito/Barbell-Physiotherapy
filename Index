@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Barbell Physiotherapy Inc.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Barbell Physiotherapy Inc.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Barbell Physiotherapy Inc.</h2>
+            <p>Your health is our priority. We offer personalized physiotherapy services tailored to your needs.</p>
+            <a href="#contact" class="cta-button">Book a Consultation</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Sports Injury Rehabilitation</h3>
+                <p>Comprehensive treatment and rehabilitation for sports-related injuries.</p>
+            </div>
+            <div class="service-item">
+                <h3>Manual Therapy</h3>
+                <p>Hands-on techniques to relieve pain and improve mobility.</p>
+            </div>
+            <div class="service-item">
+                <h3>Post-Surgery Rehab</h3>
+                <p>Recovery programs to get you back on your feet after surgery.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Barbell Physiotherapy Inc., we are committed to helping you achieve optimal physical health. With a focus on evidence-based treatments and personalized care, we work with you to design a rehabilitation plan that aligns with your lifestyle and goals.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you're ready to get started or have questions, reach out today!</p>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Barbell Physiotherapy Inc. | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
